@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Projeto My Components</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#">
+                <img src="imagens/Beige Simple Photo Signature Twitter Profile Picture (2).png" alt="Victor Hugo" class="perfil-img">
+            </a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tipografia.html">Tipografia</a></li>
+                <li><a href="cards.html">Cards</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+                <li><a href="botoes.html">Botões</a></li>
+                <li><a href="tabelas.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1>My Componets</h1>
+
+        <article class="hightlight">
+            <h2>Tipografia</h2>
+            <p>A Tipografia trasnsmite nossas definições de tamanhos e espaçamentos e deve ser utlizada respeitando a hieranquia dos elementos na interface.</p>
+        </article>
+
+        <section>
+            <h3>Elementos</h3>
+
+            <article>
+                <h4>Textos</h4>
+                <p>Esse texto esta escrito em <b>negrito</b> e esse texto é um <strong>texto forte</strong>.</p>
+                <p>Este texto esta em <i>italico</i> e esse texto em <em>enfase</em>.</p>
+                <P>Isto é um texto escrito de forma <u class="underline">erada</u> e isto é um <a href="">Link</a></P>
+            </article>
+
+            <article>
+                <h4>Subeescrito e Subscrito</h4>
+                <p>3<sup>2</sup> é igual a 9</p>
+                <p>A formula da água é H<sub>2</sub>O</p>
+            </article>
+
+            <article>
+                <h4>Abreviações</h4>
+                <p>Para criar páginas na web precisamos aprender sobre <abbr title="Hiper Text Markup Language">HTML</abbr></p>
+                <p>Para criar páginas na web precisamos aprender sobre <a href="#html-dfn"><abbr title="Hiper Text Markup Language">HTML</abbr></a></p>
+                <p>O <dfn id="html-dfn"> <abbr title="Hiper Text Markup Language">HTML</abbr></dfn> é a principal linguagem da web onde podemos incluir nosso conteúdo de forma semântica</p>
+            </article>
+
+            <article>
+                <h4>Citações</h4>
+                <blockquote>
+                    <p>O Ruim não é ter trabalho. O ruim é ter que trabalhar</p><cite>Seu Madruga</cite>
+                </blockquote>
+
+                <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+                    O Elemento HTML &lt;blockquote&gt; (Ou Elemento HTML de citação de bloco) indica que incluído é uma longa citação. <cite>MDN</cite>
+                </blockquote>
+
+                <p>Segundo o Seu Madruga <q>A vingaça nunca é plena, mata a alma e envenena</q>.</p>
+
+                <p>De acordo com o site da mozilla
+                    <q cite="https://www.mozilla.org/pt-BR/about/history/details/">Firefox foi lançado em 2004 e se tornou um grande sucesso</q>
+                </p>
+
+                <p> O filme <cite>Escola do Rock</cite> contém várias músicas antigas.</p>
+            </article>
+
+            <article>
+                <h4>Coisas de Computador</h4>
+                
+                <p>A porpiedade <code>background</code> do CSS serve para colocar uma imagem de fundo</p>
+
+                <pre>
+                    Este texto é um texto pre-formatado
+                </pre>
+
+                <pre>
+                    <code>
+article{
+padding-top: 1px;
+padding-bottom: 1px;
+}
+                    </code>
+                </pre>
+
+                <p>Após executar o método <code>Push</code> obtive o retorno <samp lang="en-us">undesfiend has not a push() function</samp></p>
+
+                <p>Pressione a teclar <kbd>CRTL</kbd><kbd> +</kbd><kbd> C</kbd> para copiar</p>
+            </article>
+
+            <article>
+                <h4>Datas e Horários</h4>
+
+                <p>o Evento ocorrerá em <time datetime="2025-11-10">10 de Novembro de 2025</time></p>
+                <p>O Evento ocorrerá em <time datetime="2025-11-10">10/11/2025</time></p>
+                <p>O Evento ocorrerá as <time datetime="2025-11-10T20:00:00">20h00 do dia 10 de Novembro de 2025</time></p>
+                <p>O Evento ocorrerá as <time datetime="2025-11-10T20:00:00-03:00">20h00 do dia 10 de Novembro de 2025</time></p>
+                
+                <h5 lang="en-us">JS Conference</h5>
+                <p>O Evento iniciará exatamente ás <time datetime="19:00">19h00</time></p>
+
+                <p>O Evento ocorrerá às <del datetime="2025-11-05">20h00 do dia 10 de Novembro de 2025 </del> <ins> <time datetime="2025-11-10T20:00:00-03:00">11 de Novembro de 2025</time></ins></p>
+            </article>
+        </section>
+
+    </main>
+</body>
+
+</html>

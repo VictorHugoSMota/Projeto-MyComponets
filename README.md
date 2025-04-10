@@ -1,4 +1,9 @@
-## Nesse projeto serve como um repositório pessoal com vários componentes e técnicas que aprendi em HTML e CSS, meio que um guia que posso consultar depois.
+# Projeto My Componetes
+Nesse projeto serve como um repositório pessoal com vários componentes e técnicas que aprendi em HTML e CSS, meio que um guia que posso consultar depois.
+
+## Tecnologias:
+- HTML
+- CSS
 
 ### Link para acesso do Projeto:
 https://projeto-my-componets.vercel.app/
